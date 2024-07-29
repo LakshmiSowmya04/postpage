@@ -1,0 +1,39 @@
+.header{
+    background-color: #000;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 10px 20px 10px 50px;;
+}
+
+.logoHeader{
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+    margin-right: 20px;
+}
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: auto;
+}
+.header-button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border: .5px solid black;
+    border-radius: 0;
+    margin-right: 0;
+}
+.header-button:hover {
+    background-color: rgb(202, 241, 157); /* White background on hover */
+    color: black; /* Black text on hover */
+    border: 2px solid #4CAF50; /* Green border on hover */
+}
